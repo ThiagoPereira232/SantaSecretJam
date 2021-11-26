@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e076403941b8846a1bbfae5ea71cc4, type: 3}
+  m_Name: NPC_Hotel
+  m_EditorClassIdentifier: 
+  actor: {fileID: 1839236860152472236, guid: 8d1911fe86517ad4ebc375c73b17fa5b, type: 3}
+  speakerSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  sentence: Hello
+  dialogues:
+  - actorName: Recepcionista
+    profile: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    sentence:
+      english: Hi
+      portuguese: Oi
+  - actorName: Player
+    profile: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    sentence:
+      english: Hello
+      portuguese: "Ol\xE1"
