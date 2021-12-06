@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6757456692378668244}
   - component: {fileID: 6757456692378668245}
   - component: {fileID: 6757456692378668247}
+  - component: {fileID: 7626453473978245828}
   m_Layer: 0
   m_Name: Milly
   m_TagString: Untagged
@@ -148,3 +149,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7626453473978245828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6757456692378668240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 559fc52864af5c940aafb785a93ca728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueRange: 0
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  dialogue: {fileID: 0}
