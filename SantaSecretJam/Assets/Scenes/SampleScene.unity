@@ -2914,12 +2914,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c221a308e7e5e479c2993a6299867a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  language: 0
+  language: 1
   dialogueObj: {fileID: 633948384}
   profileSprite: {fileID: 1338804046}
   speechText: {fileID: 384342251}
   actorNameText: {fileID: 40387076}
-  typingSpeed: 0.25
+  typingSpeed: 0.05
 --- !u!4 &723230717
 Transform:
   m_ObjectHideFlags: 0

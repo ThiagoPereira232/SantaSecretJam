@@ -48,7 +48,6 @@ public class DialogueControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     IEnumerator TypeSentence()
@@ -74,11 +73,7 @@ public class DialogueControl : MonoBehaviour
             }
             else
             {
-                speechText.text = "";
-                index = 0;
-                dialogueObj.SetActive(false);
-                sentences = null;
-                isShowing = false;
+                cleanDialogue();
             }
         }
     }
@@ -96,5 +91,14 @@ public class DialogueControl : MonoBehaviour
             actorNameText.text = actorName[index]; 
             isShowing = true;
         }
+    }
+
+    public void cleanDialogue()
+    {
+        speechText.text = "";
+        index = 0;
+        dialogueObj.SetActive(false);
+        sentences = null;
+        isShowing = false;
     }
 }

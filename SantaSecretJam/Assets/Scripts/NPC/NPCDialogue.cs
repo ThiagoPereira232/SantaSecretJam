@@ -10,15 +10,18 @@ public class NPCDialogue : MonoBehaviour
     public DialogueSettings dialogue;
 
     bool playerHit;
+    DialogueControl dialCont;
 
     private List<string> sentences = new List<string>();
     List<Sprite> spr = new List<Sprite>();
     List<string> actorName = new List<string>();
 
+
     // Start is called before the first frame update
     void Start()
     {
         GetNPCInfo();
+        dialCont = DialogueControl.instance;
     }
 
     // Update is called once per frame
@@ -26,7 +29,11 @@ public class NPCDialogue : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerHit )
         {
-            DialogueControl.instance.Speech(sentences.ToArray(), spr.ToArray(), actorName.ToArray());
+            dialCont.Speech(sentences.ToArray(), spr.ToArray(), actorName.ToArray());
+        }
+        if (!playerHit)
+        {
+            dialCont.cleanDialogue();
         }
     }
 
