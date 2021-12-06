@@ -24,7 +24,7 @@ public class NPCDialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) )
+        if (Input.GetKeyDown(KeyCode.E) && playerHit )
         {
             DialogueControl.instance.Speech(sentences.ToArray(), spr.ToArray(), actorName.ToArray());
         }
