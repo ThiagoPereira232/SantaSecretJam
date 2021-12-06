@@ -51,50 +51,11 @@ public class DialogueControl : MonoBehaviour
         
     }
 
-    IEnumerator TypeSentence()
+    IEnumerable TypeSentence()
     {
-        foreach (char letter in sentences[index].ToCharArray())
+        foreach(char letter in sentences[index].ToCharArray())
         {
-            speechText.text += letter;
-            yield return new WaitForSeconds(typingSpeed);
-        }
-    }
 
-    public void NextSentence()
-    {
-        if (speechText.text == sentences[index])
-        {
-            if (index < sentences.Length - 1)
-            {
-                index++;
-                speechText.text = "";
-                StartCoroutine(TypeSentence());
-                profileSprite.sprite = sprites[index];
-                actorNameText.text = actorName[index]; 
-            }
-            else
-            {
-                speechText.text = "";
-                index = 0;
-                dialogueObj.SetActive(false);
-                sentences = null;
-                isShowing = false;
-            }
-        }
-    }
-
-    public void Speech(string[] txt, Sprite[] spr, string[] nameTxt)
-    {
-        if (!isShowing)
-        {
-            dialogueObj.SetActive(true);
-            sentences = txt;
-            sprites = spr;
-            actorName = nameTxt; 
-            StartCoroutine(TypeSentence());
-            profileSprite.sprite = sprites[index]; 
-            actorNameText.text = actorName[index]; 
-            isShowing = true;
         }
     }
 }

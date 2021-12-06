@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actor: {fileID: 1839236860152472236, guid: 8d1911fe86517ad4ebc375c73b17fa5b, type: 3}
   speakerSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  sentence: Hello
+  sentence: 
   dialogues:
   - actorName: Recepcionista
     profile: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
