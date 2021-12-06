@@ -6,6 +6,8 @@ using UnityEngine.AI;
 public class Milly : MonoBehaviour
 {
     [SerializeField] private NavMeshAgent agent;
+    [SerializeField] private float speed;
+    [SerializeField] private float runSpeed;
 
     private Player player;
 
@@ -20,6 +22,31 @@ public class Milly : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        OnRun();
+    }
+    private void FixedUpdate()
+    {
+        OnMove();
+    }
+
+    #region Movement
+    
+    void OnMove()
+    {
         agent.SetDestination(player.transform.position);
     }
+
+    void OnRun()
+    {
+        if (player.IsRunning)
+        {
+            agent.speed = runSpeed;
+        }
+        else
+        {
+            agent.speed = speed;
+        }
+    }
+
+    #endregion
 }
