@@ -1,7 +1,187 @@
 fileFormatVersion: 2
 guid: 040ff3fc82c01c748a63f261c2d62b9c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3803552218835172556
+    second: piramide_0
+  - first:
+      213: 9114186596483257939
+    second: piramide_1
+  - first:
+      213: -4494757164835344960
+    second: piramide_2
+  - first:
+      213: 7074699133775945343
+    second: piramide_3
+  - first:
+      213: 1393735620833926059
+    second: piramide_4
+  - first:
+      213: 1902953207671623289
+    second: piramide_5
+  - first:
+      213: 1857737955799752951
+    second: piramide_6
+  - first:
+      213: 6418013397022656141
+    second: piramide_7
+  - first:
+      213: -3532903394569816679
+    second: piramide_8
+  - first:
+      213: 4677075238575583878
+    second: piramide_9
+  - first:
+      213: 1524727524631955988
+    second: piramide_10
+  - first:
+      213: -6695918817553477818
+    second: piramide_11
+  - first:
+      213: -3045036409913085398
+    second: piramide_12
+  - first:
+      213: -7508389991892865823
+    second: piramide_13
+  - first:
+      213: -4157442972159503426
+    second: piramide_14
+  - first:
+      213: 1998338076492505694
+    second: piramide_15
+  - first:
+      213: -7654018514161196473
+    second: piramide_16
+  - first:
+      213: 7282527631695990699
+    second: piramide_17
+  - first:
+      213: -315305360530146390
+    second: piramide_18
+  - first:
+      213: 9188499110913790894
+    second: piramide_19
+  - first:
+      213: 3082856606621046344
+    second: piramide_20
+  - first:
+      213: -2716860142605674184
+    second: piramide_21
+  - first:
+      213: 251086653757198371
+    second: piramide_22
+  - first:
+      213: 4901173626552908006
+    second: piramide_23
+  - first:
+      213: 277402637886130416
+    second: piramide_24
+  - first:
+      213: 4719023170005654784
+    second: piramide_25
+  - first:
+      213: -5078146468754774513
+    second: piramide_26
+  - first:
+      213: -8652347650343731175
+    second: piramide_27
+  - first:
+      213: -309494904689821099
+    second: piramide_28
+  - first:
+      213: 6765717905611545274
+    second: piramide_29
+  - first:
+      213: -907995432786072509
+    second: piramide_30
+  - first:
+      213: -7573366107124020675
+    second: piramide_31
+  - first:
+      213: -6949269147804856733
+    second: piramide_32
+  - first:
+      213: -6983882039405195273
+    second: piramide_33
+  - first:
+      213: 5700051472613461453
+    second: piramide_34
+  - first:
+      213: -7436313060861514293
+    second: piramide_35
+  - first:
+      213: 7977226053368637559
+    second: piramide_36
+  - first:
+      213: 5167632900409819368
+    second: piramide_37
+  - first:
+      213: -5429543462770813458
+    second: piramide_38
+  - first:
+      213: -437377501799076638
+    second: piramide_39
+  - first:
+      213: -37707943533783009
+    second: piramide_40
+  - first:
+      213: 216251933282407006
+    second: piramide_41
+  - first:
+      213: 4462353423429851211
+    second: piramide_42
+  - first:
+      213: 6467136287543680928
+    second: piramide_43
+  - first:
+      213: 5886063922791403387
+    second: piramide_44
+  - first:
+      213: 4535446028628237802
+    second: piramide_45
+  - first:
+      213: -1460105099638147644
+    second: piramide_46
+  - first:
+      213: 7681178037376500073
+    second: piramide_47
+  - first:
+      213: -5564680440078762233
+    second: piramide_48
+  - first:
+      213: -4746008790136048557
+    second: piramide_49
+  - first:
+      213: -6621972590159577470
+    second: piramide_50
+  - first:
+      213: -7646775057978735747
+    second: piramide_51
+  - first:
+      213: 8020705808555536686
+    second: piramide_52
+  - first:
+      213: 7205002226025618070
+    second: piramide_53
+  - first:
+      213: 4991967503436965563
+    second: piramide_54
+  - first:
+      213: 7127627509222659425
+    second: piramide_55
+  - first:
+      213: 2290558734699347630
+    second: piramide_56
+  - first:
+      213: 7566579348559837684
+    second: piramide_57
+  - first:
+      213: 894595404712348979
+    second: piramide_58
+  - first:
+      213: -4421776135049653532
+    second: piramide_59
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +212,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +221,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +248,31 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +281,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: piramide_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 192
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccb158479ee8c430800000000000000
+      internalID: 3803552218835172556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
