@@ -11,6 +11,8 @@ public class Milly : MonoBehaviour
 
     private Player player;
 
+    public NavMeshAgent Agent { get => agent; set => agent = value; }
+
     // Start is called before the first frame update
     void Start()
     {
