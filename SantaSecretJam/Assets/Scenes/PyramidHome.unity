@@ -690,14 +690,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1882958020, guid: d8e264a002a62ba4da74e2e32c9d7452, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1882958020, guid: d8e264a002a62ba4da74e2e32c9d7452, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 7a8328531c54d3443a34f82b1115a376, type: 2}
     - target: {fileID: 6757456692378668240, guid: d8e264a002a62ba4da74e2e32c9d7452, type: 3}
       propertyPath: m_Name
       value: Milly
@@ -745,18 +737,6 @@ PrefabInstance:
     - target: {fileID: 6757456692378668242, guid: d8e264a002a62ba4da74e2e32c9d7452, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6757456692378668243, guid: d8e264a002a62ba4da74e2e32c9d7452, type: 3}
-      propertyPath: m_SortingOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6757456692378668245, guid: d8e264a002a62ba4da74e2e32c9d7452, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6757456692378668245, guid: d8e264a002a62ba4da74e2e32c9d7452, type: 3}
-      propertyPath: m_BaseOffset
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8e264a002a62ba4da74e2e32c9d7452, type: 3}
