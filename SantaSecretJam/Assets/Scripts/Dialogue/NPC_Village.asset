@@ -10,34 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7e076403941b8846a1bbfae5ea71cc4, type: 3}
-  m_Name: NPC_Hotel
+  m_Name: NPC_Village
   m_EditorClassIdentifier: 
   actor: {fileID: 1839236860152472236, guid: 8d1911fe86517ad4ebc375c73b17fa5b, type: 3}
   speakerSprite: {fileID: 0}
   sentence: 
   dialogues:
-  - actorName: Recepcionista
-    profile: {fileID: -8304760848842469903, guid: 95f8c272595b4e3498fffdb38b76273a, type: 3}
-    sentence:
-      english: Hi
-      portuguese: Oi
-  - actorName: Player
-    profile: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-    sentence:
-      english: Hello
-      portuguese: "Ol\xE1"
-  - actorName: Recepcionista
-    profile: {fileID: -8304760848842469903, guid: 95f8c272595b4e3498fffdb38b76273a, type: 3}
+  - actorName: Guia
+    profile: {fileID: 6328287937694926832, guid: 95f8c272595b4e3498fffdb38b76273a, type: 3}
     sentence:
       english: 
-      portuguese: "Vai investigar as pir\xE2mides?"
+      portuguese: "Ol\xE1 turista!"
   - actorName: Player
     profile: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
     sentence:
       english: 
-      portuguese: Vamos
-  - actorName: Milly
-    profile: {fileID: -1533058164531211498, guid: ed2a9e9342767cb4b9e1d4d48e1333a2, type: 3}
+      portuguese: "Ol\xE1!"
+  - actorName: Guia
+    profile: {fileID: 6328287937694926832, guid: 95f8c272595b4e3498fffdb38b76273a, type: 3}
     sentence:
       english: 
-      portuguese: '*Au Au*'
+      portuguese: "Voc\xEA pode interagir com a Milly apertando \"F\""

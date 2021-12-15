@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PyramidHall4.unity
     guid: 3c0f52f86a2da6247ac7f4a02a1be887
+  - enabled: 1
+    path: Assets/Scenes/PyramidHall2.unity
+    guid: 94cbbfb35dbd6fa4e9cad04e5470dcaa
   m_configObjects: {}

@@ -1252,7 +1252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d1c3061676fdbb44aa66892ae886bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Village
+  sceneName: PyramidHall2
   destinationPortal: 4
   spawnPoint: {fileID: 202707869}
 --- !u!61 &1395591556
