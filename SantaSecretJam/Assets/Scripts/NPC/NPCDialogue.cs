@@ -27,14 +27,9 @@ public class NPCDialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(playerHit);
         if (Input.GetKeyDown(KeyCode.E) && playerHit)
         {
             dialCont.Speech(sentences.ToArray(), spr.ToArray(), actorName.ToArray());
-        }
-        if (!playerHit)
-        {
-            //dialCont.cleanDialogue();
         }
     }
 

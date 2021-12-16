@@ -32,6 +32,8 @@ public class DialogueControl : MonoBehaviour
 
     public static DialogueControl instance;
 
+    private Player player;
+
     public bool IsShowing { get => isShowing; set => isShowing = value; }
 
     void Awake()
@@ -42,7 +44,7 @@ public class DialogueControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = FindObjectOfType<Player>();
     }
 
     // Update is called once per frame
@@ -90,6 +92,7 @@ public class DialogueControl : MonoBehaviour
             profileSprite.sprite = sprites[index]; 
             actorNameText.text = actorName[index]; 
             isShowing = true;
+            player.CanWalk = false;
         }
     }
 
@@ -100,5 +103,6 @@ public class DialogueControl : MonoBehaviour
         dialogueObj.SetActive(false);
         sentences = null;
         isShowing = false;
+        player.CanWalk = true;
     }
 }
