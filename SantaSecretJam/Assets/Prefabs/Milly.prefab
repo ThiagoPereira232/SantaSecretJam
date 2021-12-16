@@ -10,12 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 6757456692378668242}
   - component: {fileID: 6757456692378668243}
-  - component: {fileID: 6757456692378668244}
   - component: {fileID: 6757456692378668245}
   - component: {fileID: 1882958027}
   - component: {fileID: 1882958020}
-  - component: {fileID: 1882958026}
   - component: {fileID: 5450075254434157095}
+  - component: {fileID: 1882958026}
+  - component: {fileID: 6757456692378668244}
+  - component: {fileID: 4875255965478349331}
   m_Layer: 0
   m_Name: Milly
   m_TagString: Untagged
@@ -88,21 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6757456692378668244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6757456692378668240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85c39edd8fbe8164a85c7ea61f22ade5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 6757456692378668245}
-  speed: 4
-  runSpeed: 6
 --- !u!195 &6757456692378668245
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -165,18 +151,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1882958026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6757456692378668240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 628928ea86dc133439a15a62841b41c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &5450075254434157095
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -203,3 +177,47 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.79789925, y: 1.2744076}
   m_EdgeRadius: 0
+--- !u!114 &1882958026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6757456692378668240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628928ea86dc133439a15a62841b41c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6757456692378668244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6757456692378668240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85c39edd8fbe8164a85c7ea61f22ade5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 6757456692378668245}
+  speed: 4
+  runSpeed: 6
+--- !u!114 &4875255965478349331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6757456692378668240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57704e7d25babe14ba8fbd73729247d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueRange: 1
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  dialogue: {fileID: 11400000, guid: 45677c8d98f0efd4abc9e1d6f1115e3e, type: 2}
