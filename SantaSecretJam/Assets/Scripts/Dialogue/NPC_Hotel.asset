@@ -21,7 +21,7 @@ MonoBehaviour:
     sentence:
       english: Hi
       portuguese: Oi
-  - actorName: Player
+  - actorName: Tourist
     profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
       english: Hello

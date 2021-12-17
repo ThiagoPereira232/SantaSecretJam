@@ -220,4 +220,4 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
-  dialogue: {fileID: 11400000, guid: 45677c8d98f0efd4abc9e1d6f1115e3e, type: 2}
+  dialogue: {fileID: 11400000, guid: 0f9ae1bbd0533e84ebf5e406d8b716db, type: 2}
