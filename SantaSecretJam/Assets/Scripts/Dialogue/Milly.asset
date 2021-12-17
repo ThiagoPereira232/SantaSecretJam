@@ -17,12 +17,12 @@ MonoBehaviour:
   sentence: 
   dialogues:
   - actorName: Milly
-    profile: {fileID: 0}
+    profile: {fileID: -1533058164531211498, guid: ed2a9e9342767cb4b9e1d4d48e1333a2, type: 3}
     sentence:
       english: Woof! Woof!
       portuguese: Au! Au!
   - actorName: Player
-    profile: {fileID: 0}
+    profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
       english: You're fluffy!
       portuguese: "Voc\xEA \xE9 fofa!"

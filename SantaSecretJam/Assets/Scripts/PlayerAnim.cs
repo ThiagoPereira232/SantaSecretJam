@@ -53,7 +53,22 @@ public class PlayerAnim : MonoBehaviour
     {
         if (player.IsRunning && player.Direction.sqrMagnitude > 0)
         {
-            anim.SetInteger("transition", 2);
+            if (player.Direction.y < 0)
+            {
+                anim.SetInteger("transition", 1);
+            }
+            if (player.Direction.y > 0)
+            {
+                anim.SetInteger("transition", 2);
+            }
+            if (player.Direction.x < 0)
+            {
+                anim.SetInteger("transition", 3);
+            }
+            if (player.Direction.x > 0)
+            {
+                anim.SetInteger("transition", 4);
+            }
         }
     }
 

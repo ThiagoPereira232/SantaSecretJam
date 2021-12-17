@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7e076403941b8846a1bbfae5ea71cc4, type: 3}
-  m_Name: NPC_Village
+  m_Name: Milly_Maze
   m_EditorClassIdentifier: 
-  actor: {fileID: 1839236860152472236, guid: 8d1911fe86517ad4ebc375c73b17fa5b, type: 3}
+  actor: {fileID: 6757456692378668240, guid: d8e264a002a62ba4da74e2e32c9d7452, type: 3}
   speakerSprite: {fileID: 0}
   sentence: 
   dialogues:
-  - actorName: Guia
-    profile: {fileID: 6328287937694926832, guid: 95f8c272595b4e3498fffdb38b76273a, type: 3}
+  - actorName: 
+    profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
+    sentence:
+      english: Milly?
+      portuguese: Milly?
+  - actorName: 
+    profile: {fileID: -1533058164531211498, guid: ed2a9e9342767cb4b9e1d4d48e1333a2, type: 3}
     sentence:
       english: 
-      portuguese: "Ol\xE1 turista!"
-  - actorName: Player
+      portuguese: '*Au Au*'
+  - actorName: 
     profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
       english: 
-      portuguese: "Ol\xE1!"
-  - actorName: Guia
-    profile: {fileID: 6328287937694926832, guid: 95f8c272595b4e3498fffdb38b76273a, type: 3}
-    sentence:
-      english: 
-      portuguese: "Voc\xEA pode interagir com a Milly apertando \"F\""
+      portuguese: "Como voc\xEA chegou aqui t\xE3o r\xE1pido?"

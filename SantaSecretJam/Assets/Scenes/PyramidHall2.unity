@@ -260,6 +260,10 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: 0.0150069
       objectReference: {fileID: 0}
+    - target: {fileID: 1883956429895146587, guid: 6995f3b869b29be479db320e07027df9, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.04
+      objectReference: {fileID: 0}
     - target: {fileID: 1883956429895146597, guid: 6995f3b869b29be479db320e07027df9, type: 3}
       propertyPath: m_Name
       value: PortalHome
@@ -10853,6 +10857,10 @@ PrefabInstance:
     - target: {fileID: 1883956429895146587, guid: 6995f3b869b29be479db320e07027df9, type: 3}
       propertyPath: m_Offset.x
       value: 0.0057011843
+      objectReference: {fileID: 0}
+    - target: {fileID: 1883956429895146587, guid: 6995f3b869b29be479db320e07027df9, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.08
       objectReference: {fileID: 0}
     - target: {fileID: 1883956429895146597, guid: 6995f3b869b29be479db320e07027df9, type: 3}
       propertyPath: m_Name

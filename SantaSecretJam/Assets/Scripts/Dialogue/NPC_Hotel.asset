@@ -22,7 +22,7 @@ MonoBehaviour:
       english: Hi
       portuguese: Oi
   - actorName: Player
-    profile: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
       english: Hello
       portuguese: "Ol\xE1"
@@ -32,7 +32,7 @@ MonoBehaviour:
       english: 
       portuguese: "Vai investigar as pir\xE2mides?"
   - actorName: Player
-    profile: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
       english: 
       portuguese: Vamos
