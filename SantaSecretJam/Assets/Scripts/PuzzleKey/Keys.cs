@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Keys : MonoBehaviour
 {
@@ -13,7 +14,9 @@ public class Keys : MonoBehaviour
 
     public GameObject oldKey;
     public GameObject newKey;
-    public GameObject portas;
+
+    public GameObject[] portas;
+
 
     private void Awake()
     {
@@ -24,6 +27,7 @@ public class Keys : MonoBehaviour
         }
 
         DontDestroyOnLoad(this.gameObject);
+        
     }
 
     private void Start()
@@ -35,6 +39,16 @@ public class Keys : MonoBehaviour
     void Update()
     {
         Debug.Log(oldKey.activeSelf);
+        if (SceneManager.GetActiveScene().name != "Basement")
+        {
+            this.gameObject.transform.localScale = new Vector2(0,0);
+            this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        }
+        else
+        {
+            this.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+            this.gameObject.transform.localScale = new Vector2(1, 1);
+        }
 
         if (Input.GetKeyDown(KeyCode.Alpha2) && playerHitKey)
         {
@@ -61,12 +75,20 @@ public class Keys : MonoBehaviour
         }
         if(!oldKey.activeSelf && !newKey.activeSelf)
         {
-            portas.SetActive(true);
+            foreach (GameObject porta in portas)
+            {
+                porta.GetComponent<SpriteRenderer>().enabled = true;
+                porta.GetComponent<BoxCollider2D>().enabled = true;
+            }
         }
         else
         {
-            portas.SetActive(false);
-        }
+            foreach (GameObject porta in portas)
+            {
+                porta.GetComponent<SpriteRenderer>().enabled = false;
+                porta.GetComponent<BoxCollider2D>().enabled = false;
+            }
+        }        
     }
 
     private void FixedUpdate()

@@ -6,6 +6,7 @@ public class GameController : MonoBehaviour
 {
     public bool oldKey;
     public bool newKey;
+    public bool puzzleKeyResove;
     public static GameController instanceGame;
 
     void Awake()
