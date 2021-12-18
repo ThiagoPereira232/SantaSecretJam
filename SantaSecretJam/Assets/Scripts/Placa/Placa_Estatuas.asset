@@ -19,7 +19,7 @@ MonoBehaviour:
   - actorName: 
     profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
-      english: 
+      english: On the board is written...
       portuguese: "Na placa est\xE1 escrito..."
   - actorName: 
     profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
