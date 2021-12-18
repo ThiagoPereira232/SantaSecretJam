@@ -2059,9 +2059,11 @@ MonoBehaviour:
     2 -------- Use
     items
 
-    Shift ------- Run
+    Shift -------- Run
 
-    WASD ------ Walk'
+    WASD -------- Walk
+
+    Esc -------- Pause'
 --- !u!222 &1845208840
 CanvasRenderer:
   m_ObjectHideFlags: 0
