@@ -40,13 +40,14 @@ public class DialogueControl : MonoBehaviour
     void Awake()
     {
         instance = this;
+        instanceGame = GameController.instanceGame;
+        language = instanceGame.language;
     }
 
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<Player>();
-        language = instanceGame.language;
     }
 
     // Update is called once per frame

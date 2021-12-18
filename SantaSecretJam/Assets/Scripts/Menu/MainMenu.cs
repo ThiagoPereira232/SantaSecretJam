@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
@@ -8,11 +9,14 @@ public class MainMenu : MonoBehaviour
     public GameObject tutorial;
     public GameObject credits;
     public GameObject mainMenu;
+    public Dropdown dropdown;
+
+    GameController gc;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        gc = GameController.instanceGame;
     }
 
     // Update is called once per frame
@@ -23,6 +27,14 @@ public class MainMenu : MonoBehaviour
 
     public void LoadMenu()
     {
+        if(dropdown.value == 0)
+        {
+            gc.language = DialogueControl.idiom.eng;
+        }
+        else
+        {
+            gc.language = DialogueControl.idiom.pt;
+        }
         Time.timeScale = 1f;
         SceneManager.LoadScene("Hotel");
     }
