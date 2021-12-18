@@ -36,7 +36,14 @@ public class NextScene : MonoBehaviour
 
         var destPortal = FindObjectsOfType<NextScene>().First(x => x != this && x.destinationPortal == this.destinationPortal);
         player.transform.position = new Vector2(destPortal.spawnPoint.position.x, destPortal.spawnPoint.position.y);
-        milly.transform.position = new Vector2(player.transform.position.x + 1f, player.transform.position.y + 1f);
+        try
+        {
+            milly.transform.position = new Vector2(player.transform.position.x + 1f, player.transform.position.y + 1f);
+        }
+        catch
+        {
+            Debug.Log("nn deu q pena");
+        }
 
         Destroy(gameObject);
     }
