@@ -1344,8 +1344,8 @@ MonoBehaviour:
   m_Text: "Game Design ------------------------- Thiago\nProgrammer --------------------------
     Thiago\nLevel Design -------------------------- Thiago\nScreenwriter --------------------------
     Thiago\nPixel artist\r ----------------------- Jo\xE3o Pedro\nPixel artist\r
-    ------------------------------- Tiago\nSound Designer --------------- ?????????\nTester
-    -------------------------------- Giovanne"
+    ------------------------------- Tiago\nSound Designer --------------- ?????????\nInterpreter
+    ------------------------- Giovanne\nTester -------------------------------- Giovanne"
 --- !u!222 &1411651862
 CanvasRenderer:
   m_ObjectHideFlags: 0
