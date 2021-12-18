@@ -24,10 +24,10 @@ MonoBehaviour:
   - actorName: Milly
     profile: {fileID: -1533058164531211498, guid: ed2a9e9342767cb4b9e1d4d48e1333a2, type: 3}
     sentence:
-      english: 
+      english: '*Woof woof*'
       portuguese: '*Au Au*'
   - actorName: Tourist
     profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
-      english: 
+      english: How did you get here so fast?
       portuguese: "Como voc\xEA chegou aqui t\xE3o r\xE1pido?"

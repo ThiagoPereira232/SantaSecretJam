@@ -19,5 +19,5 @@ MonoBehaviour:
   - actorName: Mia
     profile: {fileID: 6328287937694926832, guid: 95f8c272595b4e3498fffdb38b76273a, type: 3}
     sentence:
-      english: 
+      english: I love plants
       portuguese: Adoro plantas

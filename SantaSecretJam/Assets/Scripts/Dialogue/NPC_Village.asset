@@ -19,15 +19,15 @@ MonoBehaviour:
   - actorName: Guia
     profile: {fileID: 6328287937694926832, guid: 95f8c272595b4e3498fffdb38b76273a, type: 3}
     sentence:
-      english: 
+      english: Hello tourist!
       portuguese: "Ol\xE1 turista!"
   - actorName: Tourist
     profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
-      english: 
+      english: Hello!
       portuguese: "Ol\xE1!"
   - actorName: Guia
     profile: {fileID: 6328287937694926832, guid: 95f8c272595b4e3498fffdb38b76273a, type: 3}
     sentence:
-      english: 
+      english: You can interact with Milly by pressing F
       portuguese: "Voc\xEA pode interagir com a Milly apertando \"F\""

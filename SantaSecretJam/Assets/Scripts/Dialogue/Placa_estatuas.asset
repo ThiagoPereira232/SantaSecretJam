@@ -19,25 +19,25 @@ MonoBehaviour:
   - actorName: 
     profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
-      english: 
+      english: On the board is written...
       portuguese: "Na placa est\xE1 escrito..."
   - actorName: 
     profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
-      english: 
+      english: '"The jackal watches the flood"'
       portuguese: '"O chacal observa a enchente"'
   - actorName: 
     profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
-      english: 
+      english: '"The Sun lights up the plantation"  '
       portuguese: "\"O Sol ilumina a planta\xE7\xE3o\" "
   - actorName: 
     profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
-      english: 
+      english: '"The flowers cry out for Bernu" '
       portuguese: '"As flores aclamam por Benu"'
   - actorName: 
     profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
-      english: 
+      english: '"The falcon is watched by the union of the Egypts" '
       portuguese: "\"O falc\xE3o \xE9 vigiado pela uni\xE3o dos Egitos\""

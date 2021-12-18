@@ -19,10 +19,10 @@ MonoBehaviour:
   - actorName: Mary
     profile: {fileID: -8304760848842469903, guid: 95f8c272595b4e3498fffdb38b76273a, type: 3}
     sentence:
-      english: 
+      english: My christmas tree is so beautiful
       portuguese: "Minha \xE1rvore de nata est\xE1 t\xE3o linda"
   - actorName: Milly
     profile: {fileID: -1533058164531211498, guid: ed2a9e9342767cb4b9e1d4d48e1333a2, type: 3}
     sentence:
-      english: 
+      english: '*Woof*'
       portuguese: '*Au*'

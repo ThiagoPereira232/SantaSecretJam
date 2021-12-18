@@ -29,15 +29,15 @@ MonoBehaviour:
   - actorName: Recepcionista
     profile: {fileID: -8304760848842469903, guid: 95f8c272595b4e3498fffdb38b76273a, type: 3}
     sentence:
-      english: 
+      english: Are you going to explore the pyramids?
       portuguese: "Vai explorar as pir\xE2mides?"
   - actorName: Player
     profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
     sentence:
-      english: 
+      english: We are!
       portuguese: Vamos
   - actorName: Milly
     profile: {fileID: -1533058164531211498, guid: ed2a9e9342767cb4b9e1d4d48e1333a2, type: 3}
     sentence:
-      english: 
+      english: '*Woof Woof*'
       portuguese: '*Au Au*'
