@@ -19,7 +19,7 @@ public class Portao : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha2) && playerHitPort)
+        if (Input.GetKeyDown(KeyCode.Q) && playerHitPort)
         {
             if (gameCont.newKey)
             {

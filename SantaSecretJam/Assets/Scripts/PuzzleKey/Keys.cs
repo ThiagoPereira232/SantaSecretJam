@@ -50,7 +50,7 @@ public class Keys : MonoBehaviour
             this.gameObject.transform.localScale = new Vector2(1, 1);
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2) && playerHitKey)
+        if (Input.GetKeyDown(KeyCode.Q) && playerHitKey)
         {
             if(gameCont.newKey && gameCont.oldKey)
             {

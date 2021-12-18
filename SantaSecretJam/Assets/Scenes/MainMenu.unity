@@ -3103,16 +3103,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'E -------- Talk to NPCs / actions / pick up items
-
-    2 -------- Use
-    items
-
-    Shift -------- Run
-
-    WASD -------- Walk
-
-    Esc -------- Pause'
+  m_Text: "E -------- Talk to NPCs / actions / pick up items\nQ -------- Use items\nShift
+    -------- Run\nWASD -------- Walk\nEsc -------- Pause\nSpace -------- Quit virtual
+    keyboard\r"
 --- !u!222 &1845208840
 CanvasRenderer:
   m_ObjectHideFlags: 0

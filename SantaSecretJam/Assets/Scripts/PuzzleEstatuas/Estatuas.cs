@@ -30,7 +30,7 @@ public class Estatuas : MonoBehaviour
 
     void TradeSprite()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha2) && playerHitEstatua)
+        if (Input.GetKeyDown(KeyCode.E) && playerHitEstatua)
         {
             if (spriteRenderer.sprite == left_right)
             {

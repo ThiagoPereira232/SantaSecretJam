@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e076403941b8846a1bbfae5ea71cc4, type: 3}
+  m_Name: Placa_farao
+  m_EditorClassIdentifier: 
+  actor: {fileID: 1993228478897310833, guid: 5702edc0f73f83a40aa5cc9ff1033508, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: 
+    profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
+    sentence:
+      english: 'Firstly, congratulations for getting here! '
+      portuguese: "Primeiramente parab\xE9ns por ter chego aqui!"
+  - actorName: 
+    profile: {fileID: 6365223215409328177, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
+    sentence:
+      english: 'This was supposed to be the final room, where you would fight the
+        pharaoh, the final boss '
+      portuguese: "Aqui era para ser a sala final, onde teria a luta contra o fara\xF3,
+        o boss final"
+  - actorName: 
+    profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
+    sentence:
+      english: 'but there was no time to do it :( '
+      portuguese: "por\xE9m n\xE3o deu tempo de fazer :("
+  - actorName: 
+    profile: {fileID: -5403567741620270245, guid: 4165221f554a8af4f9867c8715923b14, type: 3}
+    sentence:
+      english: 'Sorry! But text me on Discord, maybe I''ll finish someday. '
+      portuguese: Desculpas! Mas me manda mensagem no Discord, talvez termino algum
+        dia.
+  - actorName: 
+    profile: {fileID: 3803552218835172556, guid: 040ff3fc82c01c748a63f261c2d62b9c, type: 3}
+    sentence:
+      english: //thiago#6669
+      portuguese: //thiago#6669
