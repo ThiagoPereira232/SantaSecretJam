@@ -33,6 +33,7 @@ public class DialogueControl : MonoBehaviour
     public static DialogueControl instance;
 
     private Player player;
+    GameController instanceGame;
 
     public bool IsShowing { get => isShowing; set => isShowing = value; }
 
@@ -45,6 +46,7 @@ public class DialogueControl : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<Player>();
+        language = instanceGame.language;
     }
 
     // Update is called once per frame
