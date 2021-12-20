@@ -45,10 +45,10 @@ public class Estatuas : MonoBehaviour
 
     private void FixedUpdate()
     {
-        isKey();
+        isEstata();
     }
 
-    private void isKey()
+    private void isEstata()
     {
         Collider2D hit = Physics2D.OverlapCircle(transform.position, rangeEst, playerLayer);
         if (hit != null)
